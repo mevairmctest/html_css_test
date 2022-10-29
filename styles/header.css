@@ -1,0 +1,29 @@
+.flex__center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__container {
+    height: 128px;
+}
+
+.flex_gap {
+    gap: 12px;
+}
+
+.sign_in {
+    background-color: transparent;
+    border: none;
+    margin-right: 16px;
+}
+
+.sign_up {
+    width: 160px;
+    height: 45px;
+    padding: 8px 16px;
+    color: var(--alternativo-color-button);
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: var(--alternativo-color-button);
+}
